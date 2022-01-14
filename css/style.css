@@ -297,17 +297,20 @@ box-sizing:border-box;
      .div-aside-pagamentos{
          display:flex;
          top:1500px;
+         
      }
      .div-aside-pagamentos-texto p{
          display:flex;
-         padding-top:50px ;
          
+     }
+     .aside-pagamentos{
+        padding-left: 10%;
+        margin-left:5%;
      }
      .entrega{
          background-image: url(../img/image\ 3.png);
          background-repeat: no-repeat;
-         position: absolute;
-         left: 5.4%;
+         left: 10.4%;
          right: 37.4%;
          top: 0%;
          bottom: 66.67%;
@@ -318,14 +321,75 @@ box-sizing:border-box;
      }
      .pagamento{
         background-image: url(../img/image\ 3.svg);
-        margin-left: 15%;
+        margin-left: 10%;
         background-repeat: no-repeat;
-        left: 200px;
-        right: 3.4%;
+        position: absolute;
+        left: 14.4%;
+        right:7.4%;
         top: 0%;
         bottom: 66.67%;
-        padding-left: -1%;
+        padding-left: 0%;
      }
      .pagamento p{
         padding-top: 50px;
      }
+     .reembolso{
+        background-image: url(../img/carteira.svg);
+    margin-left: 13%;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 27.4%;
+        right: 37.4%;
+        top: 0%;
+        bottom: 66.67%;
+        padding-left: 0%;
+     }
+     .reembolso p{
+        padding-top: 50px;
+     } 
+     .descontos {
+        background-image: url(../img/desconto.svg);
+        margin-left: ;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 55%;
+        top: 0%;
+        bottom: 66.67%;
+        padding-left: %;
+     }
+     .descontos p{
+        padding-top: 50px;
+     }
+     .presente {
+        background-image: url(../img/presente.svg);
+        margin-left: 38%;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 35.4%;
+        right: .4%;
+        top: 0%;
+        bottom: 66.67%;
+        padding-left: 0%;
+     }
+     .presente p{
+        padding-top: 50px;
+     }
+     .cafes{
+         background-image: url(../img/Rectangle\ 20.svg);
+         width: 704px;
+         height: 560px;
+         background-repeat: no-repeat;
+         margin-top: 5%;
+         
+         
+        }
+        .cafes h3{
+            padding-top: 50%;
+            font-size: 56px;
+            color:#FFFCF6;
+
+        }
+        .cafes p{
+            font-size: 18px;
+            color:#FFFcf6;
+        }
