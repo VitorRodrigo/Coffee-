@@ -8,9 +8,7 @@
    max-height: ;
 }
    
-       ul, ol, li {
-           list-style: none;
-       }
+      
    .header  {
        position:relative ;
        display:block;
@@ -404,8 +402,8 @@ box-sizing:border-box;
         color:#FFFcf6;
     }
     .localidade{
-       display:flex;
-       margin-top:10%;
+       display:;
+       margin-top:15%;
     }
     .localidade h3{
        /* Encontre uma loja 
@@ -425,15 +423,11 @@ box-sizing:border-box;
 
     }
     .div-localidade{
-  
-     display: flex;
-     margin-top: 50px;
+     margin-left:10%;
   }
   .loja{
-     position:absolute;
-     margin-top: 0px;
-     margin-left:223px;
-     top:4200px;
+     margin-top: 15%;
+     float:left;
      border: 2px solid #0B1D03;
      box-sizing: border-box;
      border-radius: 4px;
@@ -444,20 +438,63 @@ box-sizing:border-box;
 
   }
   .endereco{
-   position:absolute;
-   margin-top: 0px;
-   margin-left:823px;
-   top:4200px;
-   border: 2px solid #0B1D03;
-   box-sizing: border-box;
-   border-radius: 4px;
-   height: 76px;
-   width: 459px;
-   border-radius: 4px;
-   background-image: url(../img/lupa.png);
-   background-repeat: no-repeat;
-   background-position: right;
-
-
+   
+     margin-top:15%;
+     float:right;
+     margin-right: 10%;
+     border: 2px solid #0B1D03;
+     box-sizing: border-box;
+     border-radius: 4px;
+     height: 76px;
+     width: 400px;
+     border-radius: 4px;
+     background-image: url(../img/lupa.png);
+     background-repeat: no-repeat;
+     background-position: right;
 }
    
+.mapa-img{
+   margin-left:10%;
+   margin-top: 5%;
+   margin-right: 10%;
+   width:1000px;
+   min-width: auto;
+}
+.footer{
+display:flex;
+margin-top:80px;
+padding-top: 40px;
+padding-left: 80px;
+justify-content:space-between;
+background-color: #F7F1E6;
+}
+.footer-redes li{
+   background-image: url(../img/Circle.png);
+   background-position: center;
+  position: relative;
+  text-align: center;
+  left: 0px;
+  top: 0px;
+  justify-content: space-around;
+  display: inline-block; /* centraliza na horizontal */
+          margin: 0 5px;
+}
+.footer-redes a {
+   color:#1F1F1F;
+}
+.rodape{
+   margin-top:20px;
+   
+    display:block;
+    background: #F7F1E6;
+    width: 100%;
+    padding-bottom: 30x; 
+    margin-top: 10px; 
+    justify-items: flex-end;
+ 
+ }
+ .rodape p{
+     top:0%;
+     margin-top: -10px;
+     margin-left: 50%;
+ }
