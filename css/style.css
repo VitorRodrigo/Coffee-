@@ -1,395 +1,463 @@
-
-    * {
-        margin: 0;
-        padding: 0;
-        border: 0;
-    }
-    body {
-        font-family: "Open Sans", sans-serif;
-    }
-        ul, ol, li {
-            list-style: none;
-        }
-    .header  {
-        position:relative ;
-        display:block;
-        left: 0px;
-        top: 0px;
-        justify-content: space-around;
-        background: url(../img/image\ 1.svg);
-        width: 100%;
-        height: 700px;
-    }
-    .header span{
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 28px;
-        color:#FFFFFF;
-    }
-    .header h1{
-        margin-top: 200px;
-        margin-right: 50%;
-        align-items: left;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 80px;
-        line-height: 88px;
-        color:#FFFFFF;
-    }
-    .header p{
-    Font size: 35px;
-    Align: Left;
-    margin-top:1%;
-    color:#ffffff;
-    
-    }
-    .seta1{
-        padding-top: 40px;
-        padding-left: 20px;
-       background-image:;
-        background-repeat:no-repeat;
-        position:absolute;
-        background-position: 1px 20px ;     
-    border-radius: 10px solid #FFFFFF;
-box-sizing:border-box;
-    }
-        .seta2{
-        padding-top: 40px;
-        padding-left: 170px;
-        background-image:;
-        background-repeat: no-repeat;
-        background-position: 150px 30px ;
-        background-size: 50px;
-        }
-    .section-inicial{
-        padding-top: 50px;
-        padding-left: 50px;
-    }
-    .div-section-inicial{
-        position: absolute;
-        width: 704px;
-        height: 560px;
-        left: 80px;
-    }
-    .section-inicial-texto{
-        padding-left: 50%;
-    }
-    .section-inicial-texto h3{
+* {
+   padding: 0;
+   margin: 0;
+   vertical-align: baseline;
+   list-style: none;
+   border: 0;
+   max-width: auto;
+   max-height: ;
+}
+   
+       ul, ol, li {
+           list-style: none;
+       }
+   .header  {
+       position:relative ;
        display:block;
-       font-size: 52px;
-       padding-left: 15%;
-       color:#0B1D03;
-    }
-    .section-inicial-texto p{
-        display:block;
-        font-size: 32px;
-        padding-left: 15%;
-        padding-right: 5%;
-        margin-top: 2%;
-        color:#0B1D03;
-     }
-     .aside-primaria{
-        padding-top: 50px;
-        padding-left: 50px;
-     }
-     .aside-primaria-texto{
-   display: block; 
-   position: absolute;
-   width: 700px;
-   height: 100px;
-   left: 70px;
-   top: 1324px;
-   padding-top: 4%;
-     }
-     .aside-primaria-texto h3{
-        font-size: 56px;
-       color:#0B1D03;
-       padding-bottom: 20px;
-       padding-left:15%;
-
-     }.aside-primaria-texto p{
-        display:block;
-        font-size: 32px;
-        padding-left: 15%;
-        padding-right: 5%;
-        margin-top: 2%;
-        color:#0B1D03; 
-     }
-     .aside-primaria-imagem{
-        display: block; 
-        position: absolute;
-        width: 500px;
-        height: 100px;
-        left: 70px;
-        padding-right: 5%;
-        top: 1324px;
-        padding-top: 4%;
-        padding-left: 48%;
-    
-     }
-     .section-cafes h3{
-        display:block; 
-         position: absolute;
-         width: 700px;
-         height: 300px;
-         left: 70px;
-         top:1600px;
-         font-size: 52px;
-         margin-top:6%;
-          
-     }
-     .div-section-cafes{
-         display:block; 
-         position: absolute;
-         width: 400px;
-         height: 500px;
-         left: 70px;
-         top: 2000px;
-         margin-top: 10%;
-         padding-left: 2%; 
-        background: #F7F1E6;
-     }
-     .div-section-cafes li{
-        margin-left: 28%;
-        padding-bottom: 15px;
-     }
-     .div-section-cafes2 li{
-        margin-left: 28%;
-        padding-bottom: 15px;
-     }
-     .div-section-cafes3 li{
-        margin-left: 28%;
-        padding-bottom: 15px;
-     }
-
-     .section-cafe-texto h3{
-        Width:581px;
-        Height :60px;
-        Top:1800px;
-        Left:80px;
-        padding-top: 150px;
-        font-size: 56px;
-        color:#A0996C;
-     }
-     .nome-cafe{
-         margin-top: 30px;
-         margin-bottom: 30px;
-         margin-left: 25px;
-         color: #0B1D03;
-         font-size: 24px;
-
-     }
-     .promo{
-       color:#0B1D03;
-       position: static;
-       float: left;
-       left: 32.24%;
-       right: 49.46%;
-       top: 70%;
-       bottom: 20.86%;
-       margin-left:15%;
+       left: 0px;
+       top: 0px;
+       justify-content: space-around;
+       background: url(../img/image\ 1.svg);
+       width: 100%;
+       height: 300px;
+   }
+   .header span{
+       display:flex;
+       align-items: center;
+       justify-content: center;
+       font-size: 28px;
+       color:#FFFFFF;
+   }
+   .header h1{
+       margin-top: 2%;
+       margin-right: 50%;
+       align-items: left;
        font-style: normal;
        font-weight: bold;
-       font-size: 32px;
-       line-height: 40px;
-       
-     }
-     .preco{
-       position: absolute;
-       margin-left:40%;
-       font-style: normal;
-       font-weight: 500;
-       font-size: 24px;
-       line-height: 28px;
-     }
-     .botao{
-        position: absolute;
-        height: 76px;
-        width: 300px;
-        left: 0px;
-        right: 0px;
-        margin-left: 12%;
-        top: 80%;
-        background: #0B1D03;
-        color:#FFFFFF;
-        border-radius: 4px;
-     }
-     .div-section-cafes2{
-        display:block; 
-        position: absolute;
-        width: 400px;
-        height: 500px;
-        left: 38%;
-        top: 2000px;
-        margin-top: 10%;
-        padding-left: 2%; 
-       background: #F7F1E6;
-    }
+       font-size: 20px;
+       line-height: 88px;
+       color:#FFFFFF;
+   }
+   .header p{
+   Font size: 5px;
+   Align: Left;
+   margin-top:1%;
+   color:#ffffff;
    
-    .div-section-cafes3{
-        display:block; 
-        position: absolute;
-        width: 400px;
-        height: 500px;
-        left: 70%;
-        top: 2000px;
+   }
+   .seta1{
+       padding-top: 25px;
+       padding-left: 20px;
+      background-image:;
+       background-repeat:no-repeat;
+       position:absolute;
+       background-position: 1px 20px ;     
+   border-radius: 10px solid #FFFFFF;
+box-sizing:border-box;
+   }
+       .seta2{
+       padding-top: 25px;
+       padding-left: 170px;
+       background-image:;
+       background-repeat: no-repeat;
+       background-position: 150px 30px ;
+       background-size: 50px;
+       }
+   .section-inicial{
+       padding-top: 50px;
+       padding-left: 50px;
+       display:flex;
+   }
+   .div-section-inicial{
+       left: 80px;
+       display: flex;
+       margin-top: 80px;
+       padding-left: 50px;
+       padding-right: 50px;
+   }
+   .div-section-inicial img{
+      width:450px ;
+   
+   }
+   .section-inicial-texto{
+       color:#0B1D03;
+       padding-top: 9%;
+       padding-left: 5%;
+   }
+   .section-inicial-texto h3{
+      font-size: 56px;
+      padding-bottom: 20px;
+      padding-left:14%;
+      color:#0B1D03;
+     
+   }
+   .section-inicial-texto p{
+      font-size: 40px;
+      color:#0B1D03;
+      padding-bottom: 20px;
+      padding-left:15%;
+       color:#0B1D03;
+    }
+    .aside-primaria{
+       display:flex;
+       padding-top: 0px;
+       padding-left: 50px;
+    }
+    .aside-primaria-texto{
+ 
+       color:#0B1D03;
+       padding-top: 9%;
+       padding-left: 5%;
+    }
+    .aside-primaria-texto h3{
+       font-size: 56px;
+      color:#0B1D03;
+      padding-bottom: 20%;
+      padding-left:15%;
+
+    }.aside-primaria-texto p{
+      display:flex;
+       font-size: 32px;
+       padding-left: 20%;
+       padding-right: %;
+       margin-top: %;
+       color:#0B1D03; 
+    }
+    .aside-primaria-imagem{
+       padding-top: 10%;
+       padding-left: 1%;
+       
+   
+    }
+    .section-cafes h3{
+        
+        font-size: 52px;
+        margin-top:6%;
+        padding-left:5%;
+         
+    }
+    .section-cafes{
+      display:;
+    }
+    .div-section-cafes{
+       /* display:block; 
+        position: absolute;*/
+        width: 350px;
+        height: 480px;
+        position:relative;
+        float:left;
         margin-top: 10%;
-        padding-left: 2%; 
+        margin-left:5%; 
        background: #F7F1E6;
+
+    }
+    .div-section-cafes li{
+       margin-left: 30%;
+       padding-bottom: 15px;
+    }
+    .div-section-cafes2 li{
+       margin-left: 30%;
+       padding-bottom: 15px;
     }
     .div-section-cafes3 li{
-        margin-left: 28%;
-        padding-bottom: 15px;
-     }
-     .div-section-cafes4{
-        display:block; 
-        position: absolute;
-        width: 400px;
-        height: 500px;
-        left: 70px;
-        top: 2500px;
-        margin-top: 15%;
-        padding-left: 2%; 
-       background: #F7F1E6;
+       margin-left: 28%;
+       padding-bottom: 15px;
     }
-    .div-section-cafes4 li{
-        margin-left: 28%;
-        padding-bottom: 15px;
-     }
-     .div-section-cafes5{
-        display:block; 
-        position: absolute;
-        width: 400px;
-        height: 500px;
-        left: 38%;
-        top: 2500px;
-        margin-top: 15%;
-        padding-left: 2%; 
-       background: #F7F1E6;
-    }
-    .div-section-cafes5 li{
-        margin-left: 28%;
-        padding-bottom: 15px;
-     }
-     .div-section-cafes6{
-        display:block; 
-        position: absolute;
-        width: 400px;
-        height: 500px;
-        left: 70%;
-        top: 2500px;
-        margin-top: 15%;
-        padding-left: 2%; 
-       background: #F7F1E6;
-    }
-    .div-section-cafes6 li{
-        margin-left: 28%;
-        padding-bottom: 15px;
-     }
-     .aside-pagamentos{
-        position: absolute;
-        width: 1438px;
-        height: 120px;
-        left: 80px;
-        top: 3344px;
-     }
-     .div-aside-pagamentos{
-         display:flex;
-         top:1500px;
-         
-     }
-     .div-aside-pagamentos-texto p{
-         display:flex;
-         
-     }
-     .aside-pagamentos{
-        padding-left: 10%;
-        margin-left:5%;
-     }
-     .entrega{
-         background-image: url(../img/image\ 3.png);
-         background-repeat: no-repeat;
-         left: 10.4%;
-         right: 37.4%;
-         top: 0%;
-         bottom: 66.67%;
-     }
-     .entrega p{
-         padding-top: 50px;
 
-     }
-     .pagamento{
-        background-image: url(../img/image\ 3.svg);
-        margin-left: 10%;
-        background-repeat: no-repeat;
-        position: absolute;
-        left: 14.4%;
-        right:7.4%;
-        top: 0%;
-        bottom: 66.67%;
-        padding-left: 0%;
-     }
-     .pagamento p{
-        padding-top: 50px;
-     }
-     .reembolso{
-        background-image: url(../img/carteira.svg);
-    margin-left: 13%;
-        background-repeat: no-repeat;
-        position: absolute;
-        left: 27.4%;
-        right: 37.4%;
-        top: 0%;
-        bottom: 66.67%;
-        padding-left: 0%;
-     }
-     .reembolso p{
-        padding-top: 50px;
-     } 
-     .descontos {
-        background-image: url(../img/desconto.svg);
-        margin-left: ;
-        background-repeat: no-repeat;
-        position: absolute;
-        left: 55%;
-        top: 0%;
-        bottom: 66.67%;
-        padding-left: %;
-     }
-     .descontos p{
-        padding-top: 50px;
-     }
-     .presente {
-        background-image: url(../img/presente.svg);
-        margin-left: 38%;
-        background-repeat: no-repeat;
-        position: absolute;
-        left: 35.4%;
-        right: .4%;
-        top: 0%;
-        bottom: 66.67%;
-        padding-left: 0%;
-     }
-     .presente p{
-        padding-top: 50px;
-     }
-     .cafes{
-         background-image: url(../img/Rectangle\ 20.svg);
-         width: 704px;
-         height: 560px;
-         background-repeat: no-repeat;
-         margin-top: 5%;
-         
-         
-        }
-        .cafes h3{
-            padding-top: 50%;
-            font-size: 56px;
-            color:#FFFCF6;
+    .section-cafe-texto h3{
+       Width:581px;
+       Height :60px;
+       Top:1800px;
+       Left:80px;
+       padding-top: 150px;
+       font-size: 56px;
+       color:#A0996C;
+    }
+    .nome-cafe{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 25px;
+        color: #0B1D03;
+        font-size: 24px;
 
-        }
-        .cafes p{
-            font-size: 18px;
-            color:#FFFcf6;
-        }
+    }
+    .promo{
+      color:#0B1D03;
+      
+      left: 32.24%;
+      right: 49.46%;
+      margin-left:15%;
+      margin-top:1%;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 40px;
+      
+    }
+    .preco{
+      margin-left:60%;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+    }
+    .botao{
+       
+       height: 76px;
+       width: 300px;
+       left: 0px;
+       right: 0px;
+       margin-left: 9%;
+       background: #0B1D03;
+       color:#FFFFFF;
+       border-radius: 4px;
+    }
+    .div-section-cafes2{
+      width: 350px;
+      height: 480px;
+      position:relative;
+      float:left;
+      margin-top: 10%;
+      margin-left:5%; 
+       background: #F7F1E6;
+   }
+  
+   .div-section-cafes3{
+      width: 350px;
+      height: 480px;
+      position:relative;
+      float:left;
+      margin-top: 10%;
+      margin-left:5%; 
+      background: #F7F1E6;
+   }
+   .div-section-cafes3 li{
+       margin-left: 28%;
+       padding-bottom: 15px;
+    }
+    .div-section-cafes4{
+      width: 350px;
+      height: 480px;
+      position:relative;
+      float:left;
+      margin-top: 10%;
+      margin-left:5%; 
+      background: #F7F1E6;
+   }
+   .div-section-cafes4 li{
+       margin-left: 28%;
+       padding-bottom: 15px;
+    }
+    .div-section-cafes5{
+      width: 350px;
+      height: 480px;
+      position:relative;
+      float:left;
+      margin-top: 10%;
+      margin-left:5%; 
+      background: #F7F1E6;
+   }
+   .div-section-cafes5 li{
+       margin-left: 28%;
+       padding-bottom: 15px;
+    }
+    .div-section-cafes6{
+      width: 350px;
+      height: 480px;
+      position:relative;
+      float:left;
+      margin-top: 10%;
+      margin-left:5%;
+      background: #F7F1E6;
+   }
+   .div-section-cafes6 li{
+       margin-left: 28%;
+       padding-bottom: 15px;
+    }
+    .aside-pagamentos{
+       position: relative;
+       display:flex;
+       top: 110px;
+       padding-left: 10%;
+       flex-direction: column;
+       
+    }
+    .div-aside-pagamentos{
+        display:flex;
+        margin-top: 150px;
+        
+    }
+    .div-aside-pagamentos-texto p{
+        display:flex;
+        
+    }
+    /*.aside-pagamentos{
+       padding-left: 10%;
+       margin-left:%;
+    }*/
+    .entrega{
+        background-image: url(../img/image\ 3.png);
+        background-repeat: no-repeat;    
+    }
+    .entrega p{
+        padding-top: 50px;
+
+    }
+    .pagamento{
+       background-image: url(../img/image\ 3.svg);
+       margin-left: 10%;
+       background-repeat: no-repeat;
+       position: absolute;
+       left: 14.4%;
+       right:7.4%;
+       top: 0%;
+       bottom: 66.67%;
+       padding-left: 0%;
+    }
+    .pagamento p{
+       padding-top: 50px;
+    }
+    .reembolso{
+       background-image: url(../img/carteira.svg);
+   margin-left: 13%;
+       background-repeat: no-repeat;
+       position: absolute;
+       left: 27.4%;
+       right: 37.4%;
+       top: 0%;
+       bottom: 66.67%;
+       padding-left: 0%;
+    }
+    .reembolso p{
+       padding-top: 50px;
+    } 
+    .descontos {
+       background-image: url(../img/desconto.svg);
+       margin-left: ;
+       background-repeat: no-repeat;
+       position: absolute;
+       left: 55%;
+       top: 0%;
+       bottom: 66.67%;
+       padding-left: %;
+    }
+    .descontos p{
+       padding-top: 50px;
+    }
+    .presente {
+       background-image: url(../img/presente.svg);
+       margin-left: 38%;
+       background-repeat: no-repeat;
+       position: absolute;
+       left: 35.4%;
+       right: .4%;
+       top: 0%;
+       bottom: 66.67%;
+       padding-left: 0%;
+    }
+    .presente p{
+       padding-top: 50px;
+    }
+    .cafes-acessorios{
+     display: flex;
+     width: 100%
+     height:auto;
+    }
+    .cafes{
+        background-image: url(../img/Rectangle\ 20.svg);
+        background-repeat: no-repeat;
+       
+       max-width: 500px;
+       min-width: auto;
+        height: 460px;
+        min-height:auto;
+        margin-top:190px;
+        
+       }
+       .cafes h3{
+           padding-top: 50%;
+           font-size: 56px;
+           color:#FFFCF6;
+
+       }
+       .cafes p{
+          margin-top:15%;
+           font-size: 18px;
+           color:#FFFcf6;
+       }
+       .acessorios{
+          float:right;
+         background-repeat: no-repeat;
+         background-image: url(../img/tiposdecafe.png);
+         padding-right: 150px;
+         margin-top:190px;
+         margin-left:5%;
+      
+       }
+        .acessorios h3{
+        padding-top: 50%;
+        font-size: 56px;
+        color:#FFFCF6;
+    }
+    .acessorios p{
+        font-size: 18px;
+        color:#FFFcf6;
+    }
+    .localidade{
+       display:flex;
+       margin-top:10%;
+    }
+    .localidade h3{
+       /* Encontre uma loja 
+
+     position: relative;
+     width: 470px;
+     height: 60px;
+     left: 223px;
+     top: 3000px;*/
+     font-family: Playfair Display;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 56px;
+     line-height: 60px;
+     color: #0B1D03;
+
+
+    }
+    .div-localidade{
+  
+     display: flex;
+     margin-top: 50px;
+  }
+  .loja{
+     position:absolute;
+     margin-top: 0px;
+     margin-left:223px;
+     top:4200px;
+     border: 2px solid #0B1D03;
+     box-sizing: border-box;
+     border-radius: 4px;
+     height: 76px;
+     width: 459px;
+     border-radius: 4px;
+
+
+  }
+  .endereco{
+   position:absolute;
+   margin-top: 0px;
+   margin-left:823px;
+   top:4200px;
+   border: 2px solid #0B1D03;
+   box-sizing: border-box;
+   border-radius: 4px;
+   height: 76px;
+   width: 459px;
+   border-radius: 4px;
+   background-image: url(../img/lupa.png);
+   background-repeat: no-repeat;
+   background-position: right;
+
+
+}
+   
