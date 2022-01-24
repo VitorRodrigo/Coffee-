@@ -7,14 +7,13 @@
    max-width: auto;
    max-height: ;
 }
-   
+ body{
+    background:white;
+ }  
       
    .header  {
-       position:relative ;
+       position: ;
        display:block;
-       left: 0px;
-       top: 0px;
-       justify-content: space-around;
        background: url(../img/image\ 1.svg);
        width: 100%;
        height: 400px;
@@ -22,13 +21,20 @@
    }
    .header span{
        display:flex;
+       margin-top: -1%;
        align-items: center;
        justify-content: center;
        font-size: 28px;
        color:#FFFFFF;
    }
+   .compras {
+      display:;
+     float:right;
+     margin-top: -3%;
+     margin-right: 5%;
+   }
    .header h1{
-       margin-top: 8%;
+       margin-top: 2%;
       /* margin-right: 50%;
        align-items: left;
        font-style: normal;
@@ -50,37 +56,65 @@
    .circ-seta{
       position: relative;
       top: 5%;
-      left: 0;
+      left:;
    }
    .seta1{
       position: relative;
       margin-top:1%;
-      margin-left: 4.5%;
+      margin-left: 4%;
    }
    .circulo1{
       position: absolute;
-      top: 0;
-      left: 0;
+
       padding-left: 3%;
       width: 50px;
       
 
    }
+  
+   .menu1{
+      display: flex;
+      padding-top:2%;
+      margin-left: 6%;
+      width: 20px;
+   
+   }
+   .menu2{
+      display:flex;
+      margin-left: 6%;
+      margin-top: 0.5%;
+   }
+   .menu3{
+      display:flex;
+      margin-left: 6%;
+      margin-top: 0.5%;
+   }
+
+     
+   
+   .header---{
+      display:flex;
+      margin-left: 5%;
+      margin-top:5%;
+      
+   }
    .circ-seta2{
       position: relative;
-      top: -4.1%;
-      left: 0;
+      margin-top:-1.4%;
+      margin-left:-3.9% ;
+      
    }
    .seta2{
-      position: relative;
-      top: 19px;
-      left: 149px;
+      position:static;
+      margin-top:1.2%;
+      margin-left:15%;
    }
    .circulo2{
       position: absolute;
-      top: 0;
+      top: ;
       left: 0;
-      padding-left: 10%;
+      margin-top:0.2%;
+      margin-left: 13%;
       width: 50px;
       
 
@@ -147,10 +181,13 @@
        color:#0B1D03; 
     }
     .aside-primaria-imagem{
-       padding-top: 10%;
-       padding-left: 1%;
-       
-   
+       margin-top: 10%;
+       margin-left: 1%;
+      
+    }
+    .aside-primaria-imagem img{
+       width: 450px;
+      
     }
     .section-cafes h3{
         
@@ -162,18 +199,48 @@
     .section-cafes{
       display:;
     }
+    .menu-cafe{
+       display:flex;
+       justify-content: space-around;
+
+    }
+    .menu-cafe1{
+      display:flex;
+      justify-content:space-around;
+
+   }
     .div-section-cafes{
-       /* display:block; 
-        position: absolute;*/
-        width: 350px;
-        height: 480px;
-        position:relative;
-        float:left;
         margin-top: 10%;
-        margin-left:5%; 
+        margin-left: 5%; 
        background: #F7F1E6;
 
     }
+    .div-section-cafes2{
+      margin-top: 10%;
+      margin-left:; 
+      background: #F7F1E6;
+   }
+  
+   .div-section-cafes3{
+      margin-top: 10%;
+      margin-left:; 
+      background: #F7F1E6;
+   }
+   .div-section-cafes4{
+      margin-top: 10%;
+      margin-left:5%; 
+      background: #F7F1E6;
+   }
+   .div-section-cafes5{
+      margin-top: 10%;
+      margin-left:; 
+      background: #F7F1E6;
+   }
+   .div-section-cafes6{
+      margin-top: 10%;
+      margin-left:%;
+      background: #F7F1E6;
+   }
     .div-section-cafes li{
        margin-left: 30%;
        padding-bottom: 15px;
@@ -186,13 +253,21 @@
        margin-left: 28%;
        padding-bottom: 15px;
     }
+    .aside-pagamentos-ul{
+       margin-top:10%;
+       display:flex;
+       justify-content: space-around;       
+    }
+    .aside-pagamentos-ul li{
+      justify-content: space-between;
+    }
 
     .section-cafe-texto h3{
-       Width:581px;
+      //* Width:581px;
        Height :60px;
        Top:1800px;
-       Left:80px;
-       padding-top: 150px;
+       Left:80px;*/
+       margin-top:5%;
        font-size: 56px;
        color:#A0996C;
     }
@@ -206,7 +281,6 @@
     }
     .promo{
       color:#0B1D03;
-      
       left: 32.24%;
       right: 49.46%;
       margin-left:15%;
@@ -225,87 +299,43 @@
       line-height: 28px;
     }
     .botao{
-       
-       height: 76px;
-       width: 300px;
-       left: 0px;
-       right: 0px;
-       margin-left: 9%;
-       background: #0B1D03;
-       color:#FFFFFF;
-       border-radius: 4px;
+      height: 76px;
+      width: 100%;
+      left: 0px;
+      right: 0px;
+      background: #0B1D03;
+      color:#FFFFFF;
+      border-radius: 4px;
     }
-    .div-section-cafes2{
-      width: 350px;
-      height: 480px;
-      position:relative;
-      float:left;
-      margin-top: 10%;
-      margin-left:5%; 
-       background: #F7F1E6;
-   }
-  
-   .div-section-cafes3{
-      width: 350px;
-      height: 480px;
-      position:relative;
-      float:left;
-      margin-top: 10%;
-      margin-left:5%; 
-      background: #F7F1E6;
-   }
+    
    .div-section-cafes3 li{
        margin-left: 28%;
        padding-bottom: 15px;
     }
-    .div-section-cafes4{
-      width: 350px;
-      height: 480px;
-      position:relative;
-      float:left;
-      margin-top: 10%;
-      margin-left:5%; 
-      background: #F7F1E6;
-   }
+   
    .div-section-cafes4 li{
        margin-left: 28%;
        padding-bottom: 15px;
     }
-    .div-section-cafes5{
-      width: 350px;
-      height: 480px;
-      position:relative;
-      float:left;
-      margin-top: 10%;
-      margin-left:5%; 
-      background: #F7F1E6;
-   }
+   
    .div-section-cafes5 li{
        margin-left: 28%;
        padding-bottom: 15px;
     }
-    .div-section-cafes6{
-      width: 350px;
-      height: 480px;
-      position:relative;
-      float:left;
-      margin-top: 10%;
-      margin-left:5%;
-      background: #F7F1E6;
-   }
+   
    .div-section-cafes6 li{
        margin-left: 28%;
        padding-bottom: 15px;
     }
-    .aside-pagamentos{
-       position: relative;
+   /* .aside-pagamentos{
+       position: ;
        display:flex;
        top: 110px;
        padding-left: 10%;
-       flex-direction: column;
+       flex-direction: ;
        
-    }
-    .div-aside-pagamentos{
+    }*/
+    /*.div-aside-pagamentos{
         display:flex;
         margin-top: 150px;
         
@@ -313,88 +343,20 @@
     .div-aside-pagamentos-texto p{
         display:flex;
         
-    }
-    /*.aside-pagamentos{
-       padding-left: 10%;
-       margin-left:%;
     }*/
-    .entrega{
-        background-image: url(../img/image\ 3.png);
-        background-repeat: no-repeat;    
-    }
-    .entrega p{
-        padding-top: 50px;
-
-    }
-    .pagamento{
-       background-image: url(../img/image\ 3.svg);
-       margin-left: 10%;
-       background-repeat: no-repeat;
-       position: absolute;
-       left: 14.4%;
-       right:7.4%;
-       top: 0%;
-       bottom: 66.67%;
-       padding-left: 0%;
-    }
-    .pagamento p{
-       padding-top: 50px;
-    }
-    .reembolso{
-       background-image: url(../img/carteira.svg);
-   margin-left: 13%;
-       background-repeat: no-repeat;
-       position: absolute;
-       left: 27.4%;
-       right: 37.4%;
-       top: 0%;
-       bottom: 66.67%;
-       padding-left: 0%;
-    }
-    .reembolso p{
-       padding-top: 50px;
-    } 
-    .descontos {
-       background-image: url(../img/desconto.svg);
-       margin-left: ;
-       background-repeat: no-repeat;
-       position: absolute;
-       left: 55%;
-       top: 0%;
-       bottom: 66.67%;
-       padding-left: %;
-    }
-    .descontos p{
-       padding-top: 50px;
-    }
-    .presente {
-       background-image: url(../img/presente.svg);
-       margin-left: 38%;
-       background-repeat: no-repeat;
-       position: absolute;
-       left: 35.4%;
-       right: .4%;
-       top: 0%;
-       bottom: 66.67%;
-       padding-left: 0%;
-    }
-    .presente p{
-       padding-top: 50px;
-    }
     .cafes-acessorios{
      display: flex;
-     width: 100%
+     width: ;
      height:auto;
+     justify-content: space-around;
+
     }
     .cafes{
         background-image: url(../img/Rectangle\ 20.svg);
         background-repeat: no-repeat;
-       
-       max-width: 500px;
-       min-width: auto;
-        height: 460px;
-        min-height:auto;
-        margin-top:190px;
+        margin-top:5%;
+        width: 45%;
+        margin-left:5%;
         
        }
        .cafes h3{
@@ -412,9 +374,10 @@
           float:right;
          background-repeat: no-repeat;
          background-image: url(../img/tiposdecafe.png);
-         padding-right: 150px;
-         margin-top:190px;
+         margin-top:5%;
          margin-left:5%;
+         width: 45%;
+         margin-right:5%;
       
        }
         .acessorios h3{
@@ -423,6 +386,7 @@
         color:#FFFCF6;
     }
     .acessorios p{
+        margin-top:15%;
         font-size: 18px;
         color:#FFFcf6;
     }
@@ -448,30 +412,35 @@
 
     }
     .div-localidade{
-     margin-left:10%;
+       display:block;
+     margin-left:5%;
+  }
+  .div-localidade imput{
+     display:flex;
   }
   .loja{
-     margin-top: 15%;
+     margin-top: 5%;
+     margin-left:1%;
      float:left;
      border: 2px solid #0B1D03;
      box-sizing: border-box;
      border-radius: 4px;
      height: 76px;
-     width: 459px;
+     width: 45%;
      border-radius: 4px;
 
 
   }
   .endereco{
    
-     margin-top:15%;
+     margin-top:5%;
      float:right;
-     margin-right: 10%;
+     margin-right:5%;
      border: 2px solid #0B1D03;
      box-sizing: border-box;
      border-radius: 4px;
      height: 76px;
-     width: 400px;
+     width: 45%;
      border-radius: 4px;
      background-image: url(../img/lupa.png);
      background-repeat: no-repeat;
@@ -479,10 +448,10 @@
 }
    
 .mapa-img{
-   margin-left:10%;
+   margin-left:5%;
    margin-top: 5%;
-   margin-right: 10%;
-   width:1000px;
+   margin-right: 5%;
+   width:90%;
    min-width: auto;
 }
 .footer{
@@ -493,16 +462,22 @@ padding-left: 80px;
 justify-content:space-between;
 background-color: #F7F1E6;
 }
+.footer-redes li img{
+   margin-left: 10%;
+
+
+}
 .footer-redes li{
    background-image: url(../img/Circle.png);
-   background-position: center;
-  position: relative;
-  text-align: center;
-  left: 0px;
-  top: 0px;
-  justify-content: space-around;
-  display: inline-block; /* centraliza na horizontal */
-          margin: 0 5px;
+   background-position:;
+    margin: 0%;
+    background-size:cover;
+   background-repeat: round;
+  justify-content:space-between;
+   /* centraliza na horizontal */
+   display:inline-flex;
+  margin-left: 5%;
+  
 }
 .footer-redes a {
    color:#1F1F1F;
