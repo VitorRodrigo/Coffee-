@@ -511,7 +511,7 @@
 .mapa-img{
    
    margin-left:5%;
-   margin-top: 5%;
+   margin-top: 1%;
    margin-right: 5%;
    width:90%;
    min-width: auto;
@@ -537,17 +537,22 @@ background-color: #F7F1E6;
 
 }
 .footer-redes li{
- /*  background-image: url(../img/Circle.png);*/
+ /*  background-image: url(../img/Circle.png);
    background:black;
    width: 40px;
    height: 40px;
    align-items: center;
-   border-radius: 20px;
-  justify-content:;
+   border-radius: 20px;*/
+  justify-content:space-around;
    /* centraliza na horizontal */
-   display:inline-flex;
-   margin-top: 5;
+   display:inline-block;
+   margin-right: 20px;
+   
   
+}
+.footer-redes h5{
+
+   margin-left:30%;
 }
 .footer-redes a {
    color:#1F1F1F;
@@ -555,10 +560,9 @@ background-color: #F7F1E6;
 .footer-redes img {
    margin-top:20%;
 
+
 }
-.face{
-   padding-left:90%;
-}
+
 .rodape{
    margin-top:20px;
    
