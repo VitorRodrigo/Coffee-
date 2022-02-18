@@ -13,7 +13,7 @@
  }  
       
    .header  {
-       position: ;
+
        display:block;
        background: url(../img/image1.svg);
        width: 100%;
@@ -32,7 +32,6 @@
        color:#FFFFFF;
    }
    .compras {
-      display:;
      float:right;
      margin-top: -3%;
      margin-right: 5%;
@@ -116,7 +115,7 @@
 
      
    
-   .header---{
+   .header-menu{
       display:flex;
       margin-left: 5%;
       margin-top:1px;
@@ -137,7 +136,8 @@
        padding-right: 50px;
    }
    .div-section-inicial img{
-      width:450px ;
+      width:704px ;
+      height: 560px;
    
    }
    .section-inicial-texto{
@@ -150,14 +150,16 @@
    .section-inicial-texto h3{
       font-family: 'Playfair Display', serif;
       font-weight: bold;
-      font-size: 50px;
+      font-size: 56px;
       padding-bottom: 20px;
       padding-left:20%;
       color:#0B1D03;
+      line-height: 60px;
      
    }
    .section-inicial-texto p{
-      font-size: 40px;
+      font-size: 32px;
+      line-height: 40px;
       color:#0B1D03;
       padding-bottom: 20px;
       padding-left:20%;
@@ -168,7 +170,6 @@
     .aside-primaria{
        display:flex;
        padding-top: 0px;
-       padding-left: ;
     }
     .aside-primaria-texto{
  
@@ -181,16 +182,17 @@
       font-weight: bold;
        font-size: 56px;
       color:#0B1D03;
-      padding-bottom: 20%;
       padding-left:15%;
+      line-height:60px;
 
     }.aside-primaria-texto p{
       display:flex;
-       font-size: 32px;
-       padding-left: 5%;
+       padding-left: 15%;
        padding-right: 20%;
-       margin-top: %;
-       color:#0B1D03; 
+       color:#0B1D03;
+       font-size: 32px;
+      line-height: 40px;
+      margin-top:20px;
     }
     .aside-primaria-imagem{
        margin-top: 10%;
@@ -199,22 +201,23 @@
       
     }
     .aside-primaria-imagem img{
-       width: 450px;
+       width: 704px;
+       height: 560px;
        min-width: 200px;
-       max-width: 500px;
+       
       
     }
     .section-cafe-texto h3{
       font-family: 'Playfair Display', serif;
       font-weight: bold;
-        font-size: 42px;
-        margin-top:6%;
+        font-size: 56px;
         padding-left:10%;
+        margin-top:5%;
+       font-size: 56px;
+       color: #A0996C;
          
     }
-    .section-cafes{
-      display:;
-    }
+    
     .menu-cafe{
        display:flex;
        justify-content: space-between;
@@ -227,7 +230,8 @@
 
    }
     .div-section-cafes{
-      width: 350px;
+      width: 459px;
+      height: 560px;
       min-width: 200px;
         margin-top: 10%;
         margin-left: 5%; 
@@ -236,7 +240,8 @@
 
     }
     .div-section-cafes2{
-      width: 350px;
+      width: 459px;
+      height: 560px;
       min-width: 200px;
       margin-top: 10%;
       margin-left: 3%; 
@@ -244,48 +249,71 @@
    }
   
    .div-section-cafes3{
-      width: 350px;
+      width: 459px;
+      height: 560px;
       min-width: 200px;
       margin-top: 10%;
       margin-left: 3%; 
       background: #F7F1E6;
    }
    .div-section-cafes4{
-      width: 350px;
+      width: 459px;
+      height: 560px;
       min-width: 200px;
-      margin-top: 10%;
+      margin-top: 2%;
       margin-left: 5%; 
       padding-right: 2%;
       background: #F7F1E6;
    }
    .div-section-cafes5{
-      width: 350px;
+      width: 459px;
+      height: 560px;
       min-width: 200px;
-      margin-top: 10%;
+      margin-top: 2%;
       margin-left: 3%; 
       background: #F7F1E6;
    }
    .div-section-cafes6{
-      width: 350px;
+      width: 459px;
+      height: 560px;
       min-width: 200px;
-      margin-top: 10%;
+      margin-top: 2%;
       margin-left: 3%; 
       background: #F7F1E6;
    }
     .div-section-cafes li{
        margin-left: 30%;
-       padding-bottom: 15px;
+       padding-bottom: 8%;
+       margin-top:1%;
     }
     .div-section-cafes2 li{
        margin-left: 30%;
-       padding-bottom: 15px;
+       padding-bottom: 8%;
+       margin-top:1%;
     }
     .div-section-cafes3 li{
-       margin-left: 28%;
-       padding-bottom: 15px;
-    }
+       margin-left: 30%;
+       padding-bottom: 8%;
+       margin-top:1%;
+    }  
+  .div-section-cafes4 li{
+      margin-left: 30%;
+      padding-bottom: 8%;
+       margin-top:1%;
+   }
+  
+  .div-section-cafes5 li{
+      margin-left: 30%;
+     padding-bottom: 8%;
+       margin-top:1%;
+   }
+  
+  .div-section-cafes6 li{
+      margin-left: 30%;
+      padding-bottom: 30px;
+   }
     .aside-pagamentos-ul{
-       margin-top:20%;
+       margin-top:8%;
        display:flex;
        justify-content: space-around;       
     }
@@ -293,31 +321,23 @@
       justify-content: space-between;
     }
 
-    .section-cafe-texto h3{
-      //* Width:581px;
-       Height :60px;
-       Top:1800px;
-       Left:80px;*/
-       margin-top:5%;
-       font-size: 56px;
-       color: #A0996C;
-    }
+    
     .nome-cafe{
        display:flex;
         margin-top:5%;
-        width: 250px;
+        width: 300px;
         min-width: 150px;
-        margin-left:10%;
+        margin-left:18%;
         color: #0B1D03;
-        font-size: 20px;
+        font-size: 24px;
        
     }
     .nome-cafe h3{
-       margin-right: 10%;
+       margin-right: 1%;
     }
     .precos{
        display:flex;
-       padding-bottom: 40px;
+       padding-bottom: 80px;
     }
     .precos p{
         color:#0B1D03;
@@ -373,25 +393,7 @@
       border-radius: 4px;
     }
     
-   .div-section-cafes3 li{
-       margin-left: 28%;
-       padding-bottom: 15px;
-    }
    
-   .div-section-cafes4 li{
-       margin-left: 28%;
-       padding-bottom: 15px;
-    }
-   
-   .div-section-cafes5 li{
-       margin-left: 28%;
-       padding-bottom: 15px;
-    }
-   
-   .div-section-cafes6 li{
-       margin-left: 28%;
-       padding-bottom: 15px;
-    }
    /* .aside-pagamentos{
        position: ;
        display:flex;
@@ -411,7 +413,6 @@
     }*/
     .cafes-acessorios{
      display: flex;
-     width: ;
      height:auto;
      justify-content: space-around;
 
@@ -420,7 +421,8 @@
         background-image: url(../img/Rectangle20.svg);
         background-repeat: no-repeat;
         margin-top:5%;
-        width: 45%;
+        width: 704px;
+        height: 560px;
         margin-left:5%;
         
        }
@@ -430,12 +432,14 @@
            padding-top: 50%;
            font-size: 56px;
            color:#FFFCF6;
+           line-height: 60px;
 
        }
        .cafes p{
-          margin-top:15%;
-           font-size: 18px;
-           color:#FFFcf6;
+        margin-top:15%;
+        color:#FFFcf6;
+        font-size: 20px;
+        line-height: 26px;
        }
        .acessorios{
           float:right;
@@ -443,7 +447,8 @@
          background-image: url(../img/tiposdecafe.png);
          margin-top:5%;
          margin-left:5%;
-         width: 45%;
+         width: 704px;
+         height: 560px;
          margin-right:5%;
       
        }
@@ -455,9 +460,10 @@
         color:#FFFCF6;
     }
     .acessorios p{
-        margin-top:15%;
-        font-size: 18px;
-        color:#FFFcf6;
+      margin-top:15%;
+      color:#FFFcf6;
+      font-size: 20px;
+      line-height: 26px;
     }
     .localidade{
        margin-top:15%;
@@ -477,12 +483,14 @@
      font-size: 56px;
      line-height: 60px;
      color:#0B1D03;
+    
 
 
     }
     .div-localidade{
        display:block;
      margin-left:5%;
+     background: #FFFFFF;
   }
   .div-localidade imput{
      display:flex;
@@ -524,7 +532,10 @@
    margin-top: 1%;
    margin-right: 5%;
    width:90%;
+   height: 512px;
    min-width: auto;
+   background: url(Снимок экрана 2021-04-15 в 10.41.png);
+
 }
 .footer{
 display:flex;
