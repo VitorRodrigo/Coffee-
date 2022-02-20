@@ -5,7 +5,6 @@
    list-style: none;
    border: 0;
    max-width: auto;
-   max-height: ;
    text-decoration: none;
 }
  body{
@@ -17,7 +16,8 @@
        display:block;
        background: url(../img/image1.svg);
        width: 100%;
-      height: 450px;
+      height: 960px;
+      background-repeat: no-repeat;
       /* max-height: 350px;
       min-height: 350px;*/
    }
@@ -38,7 +38,7 @@
    }
    .header h1{
       font-family: 'Playfair Display', serif;
-       margin-top: 40px;
+       margin-top: 5%;
        font-weight: bold;
 
       /* margin-right: 50%;
@@ -47,13 +47,13 @@
        
        line-height: 88px;*/
        margin-left:3%;
-       font-size: 35px;
+       font-size: 80px;
        
        color:#FFFFFF;
    }
    .header p{
-   Font size: 5px;
-   Align: Left;
+   font-size: 32px;
+   align-items: Left;
    margin-top:2%;
    margin-left:3%;
    color:#ffffff;
@@ -61,7 +61,7 @@
    }
    .circ-seta{
       padding-left: 5%;
-      padding-top: 2%;
+      margin-top: 5%;
       display:flex;
      /* height: 50px;*/
    }
@@ -99,7 +99,7 @@
       display: flex;
       padding-top:2%;
       margin-left: 6%;
-      width: 20px;
+      width: 28px;
    
    }
    .menu2{
@@ -118,8 +118,11 @@
    .header-menu{
       display:flex;
       margin-left: 5%;
-      margin-top:1px;
+      margin-top:10%;
       
+   }
+   .header-menu img{
+      margin-left:5px;
    }
   
      
@@ -210,11 +213,11 @@
     .section-cafe-texto h3{
       font-family: 'Playfair Display', serif;
       font-weight: bold;
-        font-size: 56px;
-        padding-left:10%;
-        margin-top:5%;
-       font-size: 56px;
-       color: #A0996C;
+      font-size: 56px;
+      padding-left:10%;
+      margin-top:5%;
+      font-size: 56px;
+      color: #A0996C;
          
     }
     
@@ -233,10 +236,10 @@
       width: 459px;
       height: 560px;
       min-width: 200px;
-        margin-top: 10%;
-        margin-left: 5%; 
-        padding-right: 2%;
-       background: #F7F1E6;
+      margin-top: 10%;
+      margin-left: 5%; 
+      padding-right: 2%;
+      background: #F7F1E6;
 
     }
     .div-section-cafes2{
@@ -340,7 +343,7 @@
        padding-bottom: 80px;
     }
     .precos p{
-        color:#0B1D03;
+      color:#0B1D03;
       padding-left:25%;
       margin-top:5%;
       font-style: normal;
@@ -418,7 +421,7 @@
 
     }
     .cafes{
-        background-image: url(../img/Rectangle20.svg);
+        background-image: url(../img/cafes.svg);
         background-repeat: no-repeat;
         margin-top:5%;
         width: 704px;
@@ -429,10 +432,10 @@
        .cafes h3{
          font-family: 'Playfair Display', serif;
          font-weight: bold;
-           padding-top: 50%;
-           font-size: 56px;
-           color:#FFFCF6;
-           line-height: 60px;
+         padding-top: 50%;
+         font-size: 56px;
+         color:#FFFCF6;
+         line-height: 60px;
 
        }
        .cafes p{
@@ -442,9 +445,9 @@
         line-height: 26px;
        }
        .acessorios{
-          float:right;
+         float:right;
          background-repeat: no-repeat;
-         background-image: url(../img/tiposdecafe.png);
+         background-image: url(../img/tipos-de-cafe.png);
          margin-top:5%;
          margin-left:5%;
          width: 704px;
@@ -453,8 +456,8 @@
       
        }
         .acessorios h3{
-         font-family: 'Playfair Display', serif;
-         font-weight: bold;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
         padding-top: 50%;
         font-size: 56px;
         color:#FFFCF6;
@@ -488,7 +491,7 @@
 
     }
     .div-localidade{
-       display:block;
+      display:block;
      margin-left:5%;
      background: #FFFFFF;
   }
@@ -524,9 +527,20 @@
      background-position: right;
 }
    .mapa{
-      background-color: #FFFFFF
+      /*background-color: #FFFFFF;*/
+      display:block;
+      background: url(../img/mapa.png);
+      width: 80%;
+      height: 512px;
+      background-repeat: no-repeat;
+      margin-left:5%;
+      margin-top: 15%;
+      margin-right: 5%;
+      width:90%;
+      height: 512px;
+      min-width: auto;
    }
-.mapa-img{
+/*.mapa-img{
    
    margin-left:5%;
    margin-top: 1%;
@@ -534,9 +548,9 @@
    width:90%;
    height: 512px;
    min-width: auto;
-   background: url(Снимок экрана 2021-04-15 в 10.41.png);
+   
 
-}
+}*/
 .footer{
 display:flex;
 margin-top:80px;
@@ -552,10 +566,16 @@ background-color: #F7F1E6;
 }
 .footer-produtos a  {
   color:#1F1F1F;
+  
 }
 .footer-cofee a{
    color: #1F1F1F;
-
+}
+.footer-cofee li{
+   margin:10px;
+}
+.footer-produtos li{
+   margin:10px;
 }
 .footer-redes li{
  /*  background-image: url(../img/Circle.png);
