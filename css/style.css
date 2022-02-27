@@ -15,9 +15,9 @@
 
        display:block;
        background: url(../img/image1.svg);
-       width: 100%;
-      height: 960px;
-      background-repeat: no-repeat;
+      background-size: cover;
+      height: ;
+      background-repeat:no-repeat
       /* max-height: 350px;
       min-height: 350px;*/
    }
@@ -61,9 +61,12 @@
    }
    .circ-seta{
       padding-left: 5%;
-      margin-top: 5%;
+      margin-top:10px;
       display:flex;
      /* height: 50px;*/
+   }
+   .circ-seta img{
+      margin-bottom: 10px;
    }
   /* .circ-seta img{
       position:absolute
@@ -78,7 +81,7 @@
    .circ-seta2{
       padding-left: 2%;
       display:flex;
-      
+     
    }
    .circ-seta2 img{
       position:absolute;
@@ -223,12 +226,12 @@
     
     .menu-cafe{
        display:flex;
-       justify-content: space-between;
+       justify-content:center;
        margin-right: 5%;
     }
     .menu-cafe1{
       display:flex;
-      justify-content:space-between;
+     justify-content:center;
       margin-right: 5%;
 
    }
@@ -247,7 +250,8 @@
       height: 560px;
       min-width: 200px;
       margin-top: 10%;
-      margin-left: 3%; 
+      margin-left:20px;
+      padding-right: 2%;
       background: #F7F1E6;
    }
   
@@ -256,13 +260,14 @@
       height: 560px;
       min-width: 200px;
       margin-top: 10%;
-      margin-left: 3%; 
+      margin-left:20px; 
+      padding-right: 2%;
       background: #F7F1E6;
    }
    .div-section-cafes4{
       width: 459px;
       height: 560px;
-      min-width: 200px;
+      
       margin-top: 2%;
       margin-left: 5%; 
       padding-right: 2%;
@@ -273,7 +278,8 @@
       height: 560px;
       min-width: 200px;
       margin-top: 2%;
-      margin-left: 3%; 
+      margin-left:20px; 
+      padding-right: 2%;
       background: #F7F1E6;
    }
    .div-section-cafes6{
@@ -281,7 +287,8 @@
       height: 560px;
       min-width: 200px;
       margin-top: 2%;
-      margin-left: 3%; 
+      margin-left:20px;
+      padding-right: 2%;
       background: #F7F1E6;
    }
     .div-section-cafes li{
@@ -471,6 +478,7 @@
     .localidade{
        margin-top:15%;
        color:#FFFFFF;
+       background: #FFFFFF;
     }
     .localidade h3{
        /* Encontre uma loja 
@@ -533,11 +541,9 @@
       width: 80%;
       height: 512px;
       background-repeat: no-repeat;
-      margin-left:5%;
+      justify-content: center;
+      margin-left:15%;
       margin-top: 15%;
-      margin-right: 5%;
-      width:90%;
-      height: 512px;
       min-width: auto;
    }
 /*.mapa-img{
@@ -610,7 +616,7 @@ background-color: #F7F1E6;
     display:block;
     background: #F7F1E6;
     width: 100%;
-    padding-bottom: 30x; 
+    padding-bottom: 30px; 
     margin-top: 10px; 
     justify-items: flex-end;
  
