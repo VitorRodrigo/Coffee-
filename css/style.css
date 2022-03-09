@@ -237,75 +237,78 @@
 
    }
     .div-section-cafes{
-      width: 459px;
+      width: 460px;
       height: 560px;
-      min-width: 200px;
       margin-top: 10%;
-      margin-left: 5%; 
-      padding-right: 2%;
+      margin-left:80px;
       background: #F7F1E6;
       border-radius: 8px;
 
     }
     .div-section-cafes2{
-      width: 459px;
+      width: 460px;
       height: 560px;
-      min-width: 200px;
       margin-top: 10%;
       margin-left:20px;
-      padding-right: 2%;
       background: #F7F1E6;
       border-radius: 8px;
    }
   
    .div-section-cafes3{
-      width: 459px;
+      width: 460px;
       height: 560px;
-      min-width: 200px;
       margin-top: 10%;
-      margin-left:20px; 
-      padding-right: 2%;
+      margin-left:20px;
       background: #F7F1E6;
       border-radius: 8px;
    }
    .div-section-cafes4{
-      width: 459px;
+      width: 460px;
       height: 560px;
-      border-radius: 8px;
-      margin-top: 2%;
-      margin-left: 5%; 
-      padding-right: 2%;
+      margin-top:30px;
+      margin-left:80px;
       background: #F7F1E6;
+      border-radius: 8px;
    }
    .div-section-cafes5{
-      width: 459px;
+      width: 460px;
       height: 560px;
-      min-width: 200px;
-      margin-top: 2%;
-      margin-left:20px; 
-      padding-right: 2%;
+      margin-top:30px;
+      margin-left:20px;
       background: #F7F1E6;
       border-radius: 8px;
    }
    .div-section-cafes6{
-      width: 459px;
+      width: 460px;
       height: 560px;
-      min-width: 200px;
-      margin-top: 2%;
+      margin-top:30px;
       margin-left:20px;
-      padding-right: 2%;
       background: #F7F1E6;
       border-radius: 8px;
    }
     .div-section-cafes li{
-       margin-left: 144px;
      /*  padding-bottom:;*/
-       margin-top:48px;
+   
+     margin-left: 144px;
+     /*  padding-bottom:;*/
+     margin-top:48px;;      
+    }
+    
+    .div-section-cafes img{
+      margin-left:auto;
+      margin-right:auto;
+      /*  padding-bottom:;*/
+      
     }
     .div-section-cafes2 li{
       margin-left: 144px;
       /*  padding-bottom:;*/
       margin-top:48px;
+    }
+    .div-section-cafes2 img{
+      margin-right:auto;
+      margin-left:auto;
+       
     }
     .div-section-cafes3 li{
       margin-left: 144px;
@@ -332,12 +335,14 @@
     .aside-pagamentos-ul{
        margin-top:120px;
        display:flex;
-       margin-left: 170px;
-       justify-content: space-around;      
+       margin-left: 80px;
+      
+       margin-right:5px;
+      /* justify-content:center;     */ 
     }
     .aside-pagamentos-ul li{
-     justify-content: space-between;
-     margin-right: 224px;
+     margin-right: 100px;
+     margin-left:100px;
     }
 
     
@@ -409,6 +414,7 @@
       color:#FFFFFF;
       border-radius: 4px;
       margin-bottom: 32px;
+      margin-right:32px;
     }
     
    
